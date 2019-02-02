@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'G:\\xd\\node.exe',
+1 verbose cli   'G:\\xd\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'extend',
+1 verbose cli   '--loglevel=error',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.5
+4 verbose stack Error: Failed to replace env in config: ${APPDATA}
+4 verbose stack     at G:\xd\node_modules\npm\lib\config\core.js:418:13
+4 verbose stack     at RegExp.[Symbol.replace] (native)
+4 verbose stack     at RegExp.[Symbol.replace] (native)
+4 verbose stack     at String.replace (native)
+4 verbose stack     at envReplace (G:\xd\node_modules\npm\lib\config\core.js:414:12)
+4 verbose stack     at parseField (G:\xd\node_modules\npm\lib\config\core.js:392:7)
+4 verbose stack     at G:\xd\node_modules\npm\lib\config\core.js:335:17
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at Conf.add (G:\xd\node_modules\npm\lib\config\core.js:334:23)
+4 verbose stack     at ConfigChain.addString (G:\xd\node_modules\npm\node_modules\config-chain\index.js:244:8)
+5 verbose cwd C:\Users\jar\Desktop\ens private bot\ENS PRIVATE BOT
+6 error Windows_NT 10.0.17134
+7 error argv "G:\\xd\\node.exe" "G:\\xd\\node_modules\\npm\\bin\\npm-cli.js" "install" "extend" "--loglevel=error" "--save"
+8 error node v6.11.5
+9 error npm  v3.10.10
+10 error Failed to replace env in config: ${APPDATA}
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
